@@ -21,6 +21,21 @@ tab_width = 4
 end_of_line = lf
 insert_final_newline = false
 
+#### StyleCop Ignore ####
+[*.{cs,csproj}]
+# PrefixLocalCallsWithThis
+dotnet_diagnostic.SA1101.severity = none
+# FieldNamesMustNotBeginWithUnderscore
+dotnet_diagnostic.SA1309.severity = none
+# SingleLineCommentMustBePrecededByBlankLine
+dotnet_diagnostic.SA1515.severity = none
+# UseLineEndingsCorrectlyAtEndOfFile
+dotnet_diagnostic.SA1518.severity = none
+# ElementsMustBeDocumented
+dotnet_diagnostic.SA1600.severity = none
+# FileMustHaveHeader
+dotnet_diagnostic.SA1633.severity = none
+
 #### .NET Coding Conventions ####
 [*.{cs,vb}]
 
