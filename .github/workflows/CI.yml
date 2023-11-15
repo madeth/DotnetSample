@@ -25,3 +25,5 @@ jobs:
         run: dotnet roslynator analyze
       - name: dotnet build
         run: dotnet build --no-restore -warnaserror -clp:NoSummary
+      - name: dotnet test
+        run: dotnet test --no-build
