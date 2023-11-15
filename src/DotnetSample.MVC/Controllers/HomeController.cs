@@ -1,4 +1,5 @@
 using System.Diagnostics;
+using System.Reflection;
 using DotnetSample.MVC.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -15,6 +16,8 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
+        ViewData["ControllerName"] = GetType().Name;
+        ViewBag.ActionName = MethodBase.GetCurrentMethod()?.Name;
         return View();
     }
 
