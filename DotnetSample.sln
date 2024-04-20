@@ -1,15 +1,15 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{63C9921F-71CF-46D2-B629-E9D2B14F8EDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetSample.MVC", "src\DotnetSample.MVC\DotnetSample.MVC.csproj", "{4854F8BC-B293-4FF5-BF86-A46CD7A6D002}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotnetSample.MVC", "src\DotnetSample.MVC\DotnetSample.MVC.csproj", "{4854F8BC-B293-4FF5-BF86-A46CD7A6D002}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{1AA0994C-A813-4EBD-A1B2-EE8B4A58C0CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "tests\UnitTests\UnitTests.csproj", "{E1FB7D75-6EF6-44D4-8185-9F0F4FE82053}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests", "tests\UnitTests\UnitTests.csproj", "{E1FB7D75-6EF6-44D4-8185-9F0F4FE82053}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
